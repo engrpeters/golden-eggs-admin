@@ -1,0 +1,81 @@
+body{
+  
+}
+
+.form-title{
+   border-bottom: 1px solid black;
+}
+.sidebar-nav{
+    height: 70%
+}
+.ti-menu{
+    line-height: 60px
+}
+.top-left-part a {
+  
+}
+.navbar-top-links>li>a{
+    min-height: 0px;
+}
+.nav > li > a{
+    padding-top:  0px 
+}
+.profile-pic img{
+    padding:10px 0;
+}
+
+.transactions th{
+    color: black
+}
+
+.comments{
+    word-break: break-all
+}
+
+.transactions .credit{
+    color: green;
+}
+
+#grid-info{
+    position: absolute;
+    z-index: 500;
+    background-color: #fff;
+    min-width: 100px;
+    min-height: 50px;
+}
+a.has-ul{
+    position: relative;
+    
+}
+a.has-ul ul{
+    list-style: none;
+}
+.content-wrapper .hidden-ul{
+    list-style: none;
+ display: none;
+}
+
+.content-wrapper .sidebar li:hover ul.hidden-ul, .content-wrapper .sidebar li:hover ul.hidden-ul li{
+    display: block;
+}
+
+@media (min-width: 768px){
+.content-wrapper .sidebar ul.hidden-ul>li>a {
+    padding-left: 30px;
+    color: #cbcbcb;
+  
+    }
+    
+    .content-wrapper .sidebar ul.hidden-ul {
+        position: absolute;
+        left: 60px;
+        background-color: green;
+        z-index: 999999;
+ 
+    }
+    
+    .hidden-ul{
+        display: none;
+    }
+
+}
